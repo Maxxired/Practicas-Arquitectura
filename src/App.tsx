@@ -1,14 +1,16 @@
 
-import './App.css'
+import './index.css'
 import Form from './components/Form'
 import Counter from './components/useReducer'
+import Sidebar from './components/sidebar'
 
 function App() {
 
   return (
     <>
-      <Counter />
-      <Form />
+      <Sidebar />
+      {/* <Counter />
+      <Form /> */}
     </>
   )
 }
