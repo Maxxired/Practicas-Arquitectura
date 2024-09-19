@@ -5,12 +5,14 @@ import Sidebar from './components/sidebar';
 import Counter from './Pages/useReducer';
 import Form from './Pages/Form';
 import Welcome from './Pages/welcome';
+import Calculo from './Pages/useMemo';
 
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: "/", element: <Welcome /> },
     { path: "/counter", element: <Counter /> },
     { path: "/form", element: <Form /> },
+    { path: "/Calculo", element: <Calculo /> }
   ]);
 
   return routes;

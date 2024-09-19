@@ -42,7 +42,7 @@ const Sidebar: React.FC = () => {
 
                     {/* Enlaza a UseMemo */}
                     <li className="text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-gray-700 rounded-md">
-                        <Link to="/use-memo" className="flex items-center gap-x-4">
+                        <Link to="/Calculo" className="flex items-center gap-x-4">
                             <FontAwesomeIcon icon={faMemory} size='xl' />
                             <span className={`${!isOpen && "hidden"} text-lg duration-300`}>UseMemory</span>
                         </Link>
